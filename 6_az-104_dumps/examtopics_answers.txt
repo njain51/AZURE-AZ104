@@ -1,0 +1,360 @@
+PAGE 1
+Topic 1 - Question Set 1
+1: C
+2: B
+3: B
+4: A
+5: D
+6: B
+7: B
+8: A
+9: B
+10: B
+11: B
+12: B
+13: B
+14: A
+15: B
+16: C
+17: C
+18: D
+19: B
+20: An Azure Key Vault, An Access Policy
+21: A
+22: B
+23: Hyper-V site, Azure Recovery Services Vault, Replication Policy
+24: B
+25: B
+26: A
+27: C
+28: B
+29: B
+30: A
+31: E
+32: A
+33: D
+34: B
+35: C
+36: B
+37: A,B,C,D,E
+Topic 2 - Question Set 2
+1: B
+2: B
+3: B
+4: Network Contributor on LB1, Network Contributor on LB2
+5: B
+6: A,C
+7: No, No, Yes
+8: No, No, No
+9: B
+10: VNET1: Department: D1 only, VNET2: Label: Value1 only
+11: C
+12: C
+13: B
+14: A
+15: C
+16: A
+17: No, Yes, No
+18: C
+19: B
+20: A
+21: B
+22: B
+23: A
+
+PAGE 2
+24: Assign a tag to each resource, From the Cost analysis blade, filter the view by tag, Download the usage report
+25: B
+26: Yes, Yes, No
+27: A
+28: /Subscription/subcription_id, Microsoft.Authorization/*
+29: A, E
+30: B
+31: Users and groups, Cloud apps, Grant
+32: A
+33: C
+34: User1: Group1 only, User2: Group1 and Group2 only
+35: JobTitle: User1 and User3 only, UsageLocation: User1, User2, and User3
+36: A
+37: A
+38: A
+39: C
+40: Yes, Yes, No
+41: A
+42: A
+43: A
+44: Add a custom name, Add a record to the public contoso.com DNS zone, Verify the domain
+45: B
+46: D
+47: Yes, No, Yes
+48: Add a subnet to VNET1: User1 and User3 only, Assign a user the Reader role to VNET1: User1 only
+49: Locks: Sub1, RG1 and VM1 only, Tags: Sub1, RG1 and VM1 only
+50: B
+51: Yes, No, No
+52: No
+53: B
+54: A
+Topic 3 - Question Set 3
+1: B
+2: No, Yes, Yes
+3: C
+4: A
+5: D
+6: Azure Table Storage: storageaccount1 and storageaccount2 only, Azure Blob Storage: all the storage accounts
+7: B
+8: App1: Access control (IAM), App2: Shared access signatures (SAS)
+9: --kind: StorageV2, --sku: Standard_GRS
+10: B, C, E
+11: No, No, No
+12: attach disk prepare the drives, create import job, ship the drives to the Azure datacenter, update the job with tracking information
+13: No, No, Yes
+14: \\contosostorage.file.core.windows.net\data
+15: make, blob
+16: Note: They changed the question in Exam from "within 24 hours" to "after 24 hours". File1: Endpoint1, Endpoint2 and Endpoint3, File2: Endpoint1, Endpoint2 and Endpoint3
+17: never, never
+18: No, No, Yes
+19: B
+20: A, C
+21: Install the Azure File Sync Agent on Server1, Register Server1, Add a server endpoint
+22: Replication: Zone-redundant storage (ZRS), StorageV2 (general purpose v2)
+23: B, E
+24: D
+25: Vault1: VM1 only, Vault2: share1 only
+26: C
+27: 3, Access tier (default)
+28: B
+29: 1: Azure Active Directory (AD) and Shared Access Signature (SAS) token, 2: Shared Access Signature (SAS) only
+
+PAGE 3
+30: A
+31: D
+32: B
+33: Create a Storage Sync Service, Create a sync group
+34: No, Yes, No
+35: Storage accounts: Storage 3 only, Log Analytics workspaces: Analytics1, Analytics2, and Analytics3
+36: Box 1: contoso104 only, Box 2: contoso101 and contos103 only
+37: no access, no access
+38: A
+39: C
+40: D
+41: C
+42: A
+43: Yes, Yes, No
+Topic 4 - Question Set 4
+1: No
+2: Yes
+3: B
+4: copy, copyIndex
+5: Yes
+6: No
+7: Yes
+8: No
+9: Yes
+10: No
+11: No
+12: First: Delete VM1, Second: Create a new virtual machine
+13: A
+14: Box 1: ASP1 and ASP3 only, Box 2: ASP1 only
+15: 6, 2
+16: A, D
+17: az aks install-cli
+18: Upload a configuration to Azure Automation, Compile a configuration into a node configuration, Check the compliance status of the node
+19: A
+20: A
+21: A
+22: B
+23: B
+24: A
+25: B
+26: A
+27: B
+28: A
+29: B
+30: Yes, No, No
+31: 2, 7
+32: A
+33: B
+34: Can connect from any device, Will restart automatically
+35: C
+36: A, D
+37: A, E, F
+38: D
+39: B
+40: VM1 and VM2 continue to run, one email notification will be sent each month
+41: B
+42: B
+43: C
+44: No, Yes, Yes
+45: tag1: value1, tag2: value2 and tag3: value3
+46: 60, 12
+
+PAGE 4
+47: D
+48: B, D
+49: A
+50: A
+51: B
+52: B
+53: A
+54: B
+55: only the web server, web server and dns server
+56: C
+57: D
+58: B
+59: B
+60: 10.244.0.0/16, 10.0.0.0/16
+61: 2, 4
+62: C
+63: C
+64: 4, 1
+65: B
+66: B
+67: VM1 and VM2 only, VM1 or a new Azure virtual machine only
+68: B
+69: B
+70: 3, 20
+71: A
+72: 3, 1
+73: A
+74: B
+75: New-AzResourceGroupDeployment, -ResourceGroupName RG1
+Topic 5 - Question Set 5
+1: 10.0.0.0/16, Virtual appliance, Gateway Subnet
+2: D
+3: No, Yes, Yes
+4: No, Yes, Yes
+5: Yes, No, Yes
+6: C
+7: C
+8: Internal Load Balancer, Application gateway which uses WAF tier
+9: B
+10: 5, 1
+11: B
+12: private ip only, private ip only
+13: An Azure Log Analytics workspace, NSG1
+14: C
+15: B, C, F
+16: A
+17: Yes, Yes, No
+18: D
+19: Remove peering between Vnet1 and VNet2, Add the 10.33.0.0/16 address space to VNet1, Recreate peering between VNet1 and VNet2
+20: Yes, Yes, No
+21: D
+22: B
+23: D
+24: Yes
+25: No
+26: Yes
+27: Add an address space, Add a subnet
+28: A
+29: A
+30: A
+31: A
+
+PAGE 5
+32: Yes, No, No
+33: private, private
+34: Create gateway subnet, Create a VPN gateway, Create a local gateway, Create a VPN connection
+35: C
+36: D
+37: A, C
+38: RG1 RG2 or RG3, West US only
+39: VNET2 and VNET3, VNET1 only
+40: B
+41: B
+42: B
+43: D
+44: D
+45: No, No, Yes
+46: B
+47: A
+48: A, B, C
+49: vNET6 only, delete peering1
+50: Yes, Yes, No
+51: Remove the public IP address from VM1, Create and configure an NSG
+52: B
+53: B
+54: IP flow verify, Connection troubleshoot
+55: Yes, No, Yes
+56: IP1, VNET1, and storage1, IP2, VNET2, and storage2
+57: B
+58: B
+59: A
+60: A
+61: C
+62: B
+63: No, Yes, Yes
+64: B
+65: B
+66: B
+67: B
+68: B
+69: A
+70: A
+71: C
+72: same availability set or virtual machine scale set, same virtual network
+73: 2, 2, 2
+74: D
+75: A
+76: C, E
+77: No, No, Yes
+78: Yes, Yes, Yes
+79: AzureBastionSubnet, 10.1.1.0/27
+80: A
+81: A
+82: B
+83: Remove public ips, Create a health probe, Create a load balancing rule
+84: B
+85: B
+86: Create Azure Virtual WAN, Create Virtual Hub, Create VPN sites, Connect VPN sites to virtual hub
+87: No, Yes, No
+88: A
+89: C
+90: Outbound, 10.1.0.10 VM1, 10.1.0.11 VM2, 110
+91: B
+
+PAGE 6
+92: A
+93: C
+94: B
+Topic 6 - Question Set 6
+1: Application Insights Agent, Application Insights Agent
+2: D
+3: No, No, No
+4: B
+5: A
+6: C
+7: File Recovery from the vault, Select a restore point, Download and run the script, Copy the files by using AZCopy
+8: A Recovery Services vault, A backup policy
+9: D
+10: D
+11: A
+12: B
+13: 10 years, 36 months
+14: A
+15: 4, 3
+16: C
+17: 6, 8
+Topic 7 - Testlet 1
+1: Selected: User may join devices to Azure AD, Yes: Require MFA to join devices
+2: D
+Topic 8 - Testlet 2
+1: resouce policy contributor for sub1, resouce policy contributor for rg2
+Topic 9 - Testlet 3
+1: D
+2: B
+3: Yes, No, No
+Topic 10 - Testlet 4
+1: storage2 and storage3 only, storage2 only
+2: StorageV2, Storage2
+Topic 11 - Testlet 5
+1: E
+Topic 12 - Testlet 6
+1: not enough information
+2: create a virtual network gateway and a local network gateway, configure a site-to-site VPN connection
+Topic 13 - Testlet 7
+1: 1, 3
+2: A
+Topic 14 - Testlet 8
+1: Get-AzRoleDefinition, ConvertTo-Json
+2: B
