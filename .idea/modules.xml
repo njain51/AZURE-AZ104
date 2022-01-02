@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/azure-learning.iml" filepath="$PROJECT_DIR$/.idea/azure-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AZ104.iml" filepath="$PROJECT_DIR$/.idea/AZ104.iml" />
     </modules>
   </component>
 </project>
